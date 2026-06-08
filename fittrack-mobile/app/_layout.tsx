@@ -39,6 +39,12 @@ export default function RootLayout() {
           name="auth"
           options={{ headerShown: false }}
         />
+
+        {/* Modal nueva entrada */}
+        <Stack.Screen
+          name="nueva-entrada"
+          options={{ presentation: 'modal' }}
+        />
       </Stack>
     </>
   );
